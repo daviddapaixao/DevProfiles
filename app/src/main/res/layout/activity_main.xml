@@ -40,24 +40,24 @@
 	<ImageView
 		android:layout_width="50dp"
 		android:layout_height="50dp" app:srcCompat="@drawable/camerabutton"
-		android:id="@+id/imageView3"
+		android:id="@+id/cameraImageView"
 		app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
-		app:layout_constraintEnd_toStartOf="@+id/imageView5" app:layout_constraintTop_toBottomOf="@+id/logoImageView"
+		app:layout_constraintEnd_toStartOf="@+id/favoriteImageView" app:layout_constraintTop_toBottomOf="@+id/logoImageView"
 		android:layout_marginTop="50dp" app:layout_constraintHorizontal_chainStyle="packed"/>
 	<ImageView
 		android:layout_width="50dp"
 		android:layout_height="50dp" app:srcCompat="@drawable/favoritebutton"
-		android:id="@+id/imageView5"
-		app:layout_constraintStart_toEndOf="@+id/imageView3" app:layout_constraintHorizontal_bias="0.5"
-		app:layout_constraintEnd_toStartOf="@+id/imageView6"
-		app:layout_constraintTop_toTopOf="@+id/imageView3"
-		app:layout_constraintBottom_toBottomOf="@+id/imageView3" app:layout_constraintVertical_bias="0.0"
+		android:id="@+id/favoriteImageView"
+		app:layout_constraintStart_toEndOf="@+id/cameraImageView" app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintEnd_toStartOf="@+id/inboxImageView"
+		app:layout_constraintTop_toTopOf="@+id/cameraImageView"
+		app:layout_constraintBottom_toBottomOf="@+id/cameraImageView" app:layout_constraintVertical_bias="0.0"
 		android:layout_marginRight="35dp" android:layout_marginLeft="35dp"/>
 	<ImageView
 		android:layout_width="50dp"
 		android:layout_height="50dp" app:srcCompat="@drawable/inboxbutton"
-		android:id="@+id/imageView6"
-		app:layout_constraintStart_toEndOf="@+id/imageView5" app:layout_constraintHorizontal_bias="0.5"
-		app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@+id/imageView5"
-		app:layout_constraintBottom_toBottomOf="@+id/imageView5" app:layout_constraintVertical_bias="1.0"/>
+		android:id="@+id/inboxImageView"
+		app:layout_constraintStart_toEndOf="@+id/favoriteImageView" app:layout_constraintHorizontal_bias="0.5"
+		app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@+id/favoriteImageView"
+		app:layout_constraintBottom_toBottomOf="@+id/favoriteImageView" app:layout_constraintVertical_bias="1.0"/>
  </android.support.constraint.ConstraintLayout>
